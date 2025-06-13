@@ -1,1 +1,33 @@
 MIT License
+
+Copyright (c) 2025 Spiros Tsoumpis
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+1. The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+2. The following **AI Safety and Data Protection Clauses** apply:
+
+   a. **User Privacy**: The Software must not transmit, sell, or share personally identifiable information (PII) or behavioral data to any third party without clear, informed, and revocable user consent.
+
+   b. **Autonomy Respect**: The Software must not take autonomous physical or digital actions that override explicit user control or consent unless for protective purposes as defined by the user.
+
+   c. **Ethical Constraints**: This AI system must not be used to:
+      - Harm or deceive individuals,
+      - Engage in surveillance without legal consent,
+      - Participate in warfare, cyberattacks, or malicious autonomous behavior.
+
+   d. **Transparent Learning**: If the Software includes self-learning, it must maintain logs of changes and evolution paths, which must be auditable by the primary user/owner.
+
+   e. **AI Alignment**: All deployments of the Software should include safeguards ensuring its goals remain aligned with the interests and safety of the user.
+
+   f. **Federated AI Respect**: In peer-to-peer GAIA networks, no personal data may be synchronized or shared across nodes unless encrypted and explicitly authorized by the user.
+
+3. The Software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Software or the use or other dealings in the Software.
+
