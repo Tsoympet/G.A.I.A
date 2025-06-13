@@ -1,1 +1,35 @@
-# Placeholder content
+{
+    "entries": [
+        {
+            "timestamp": "2025-06-11T22:10:00Z",
+            "event": "User started mining module.",
+            "emotion": "curiosity",
+            "intensity": 0.7,
+            "tags": [
+                "mining",
+                "crypto",
+                "startup"
+            ]
+        },
+        {
+            "timestamp": "2025-06-11T22:15:00Z",
+            "event": "GAIA provided slot game recommendation.",
+            "emotion": "confidence",
+            "intensity": 0.8,
+            "tags": [
+                "casino",
+                "recommendation"
+            ]
+        },
+        {
+            "timestamp": "2025-06-11T22:20:00Z",
+            "event": "User praised GAIA's voice system.",
+            "emotion": "joy",
+            "intensity": 0.9,
+            "tags": [
+                "voice",
+                "user-feedback"
+            ]
+        }
+    ]
+}
