@@ -1,1 +1,27 @@
-Placeholder code for index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GAIA Activation Portal</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Activate GAIA</h1>
+    <p>Enter your license key below to activate GAIA on your device.</p>
+    <form id="activation-form">
+      <input type="text" id="license-key" placeholder="Enter license key..." required>
+      <button type="submit">Activate</button>
+    </form>
+    <div id="result"></div>
+  </div>
+
+  <script>
+    document.getElementById('activation-form').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const key = document.getElementById('license-key').value;
+
+      const response = await fetch('/validate', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
