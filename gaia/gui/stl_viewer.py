@@ -1,0 +1,1 @@
+# Placeholder for stl_viewer.py

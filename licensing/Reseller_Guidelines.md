@@ -1,0 +1,1 @@
+# Placeholder for Reseller_Guidelines.md

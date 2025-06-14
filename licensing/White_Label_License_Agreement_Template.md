@@ -1,0 +1,1 @@
+# Placeholder for White_Label_License_Agreement_Template.md

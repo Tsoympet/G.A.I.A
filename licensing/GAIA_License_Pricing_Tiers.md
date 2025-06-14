@@ -1,0 +1,1 @@
+# Placeholder for GAIA_License_Pricing_Tiers.md

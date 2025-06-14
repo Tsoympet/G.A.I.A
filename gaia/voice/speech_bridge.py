@@ -1,0 +1,1 @@
+# Placeholder for speech_bridge.py

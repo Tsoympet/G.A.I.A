@@ -1,0 +1,1 @@
+# Placeholder for whitepaper_generator.py
