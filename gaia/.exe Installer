@@ -1,0 +1,27 @@
+import shutil
+import os
+from zipfile import ZipFile
+
+# Simulate creation of the .exe installer bundle directory structure
+installer_dir = "/mnt/data/GAIA_Windows_Installer"
+os.makedirs(installer_dir, exist_ok=True)
+
+# Simulate copying necessary files to the installer directory
+# (In a real scenario, these would be compiled .exe and support files)
+placeholder_files = [
+    "GAIA_Setup.exe",
+    "installer_config.json",
+    "install_script.bat",
+    "README_FIRST.txt",
+    "LICENSE.txt"
+]
+
+for filename in placeholder_files:
+    with open(os.path.join(installer_dir, filename), "w") as f:
+        f.write(f"This is a placeholder for {filename} in the GAIA installer.")
+
+# Create a ZIP of the installer directory
+installer_zip_path = "/mnt/data/GAIA_Windows_Installer.zip"
+shutil.make_archive(base_name=installer_zip_path.replace(".zip", ""), format='zip', root_dir=installer_dir)
+
+installer_zip_path
