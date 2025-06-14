@@ -8,8 +8,9 @@
 <body>
   <div class="container">
     <h1>Activate GAIA</h1>
-    <p>Enter your license key below to activate GAIA on your device.</p>
+    <p>Enter your license key and email to activate GAIA on your device.</p>
     <form id="activation-form">
+      <input type="email" id="email" placeholder="Enter your email..." required>
       <input type="text" id="license-key" placeholder="Enter license key..." required>
       <button type="submit">Activate</button>
     </form>
@@ -19,9 +20,28 @@
   <script>
     document.getElementById('activation-form').addEventListener('submit', async function(e) {
       e.preventDefault();
+
+      const email = document.getElementById('email').value;
       const key = document.getElementById('license-key').value;
 
       const response = await fetch('/validate', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ email: email, key: key })
+      });
+
+      const result = await response.json();
+      const output = document.getElementById('result');
+
+      if (result.valid) {
+        output.innerHTML = `<span class="success">✅ Activation successful! Thank you, ${email}</span>`;
+      } else {
+        output.innerHTML = `<span class="error">❌ Activation failed. Please check your key or email.</span>`;
+      }
+    });
+  </script>
+</body>
+</html>
+
