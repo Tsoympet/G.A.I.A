@@ -1,0 +1,1 @@
+Placeholder code for activate.js
