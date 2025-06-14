@@ -1,1 +1,23 @@
-# Placeholder for user_manual.pdf
+GAIA User Manual
+1. Introduction
+GAIA is an advanced AI assistant capable of adaptive learning, emotional simulation, market prediction, and
+interaction with games and data environments. This manual guides you through using its core modules.
+2. Installation
+Install GAIA using the .exe or .apk provided. Follow the instructions in installation.md or visit the official
+GitHub repository for platform-specific details.
+3. Dashboard Overview
+The dashboard provides access to all major systems: Crypto, Stock, Casino, Voice, Dream State, Learning
+Console, and Plugin Store. Navigate through the left panel or voice commands.
+4. Modules
+- Casino: Offers predictions and guidance across poker, baccarat, crash, and slots.
+- Crypto/Stock: Market analysis and trading advice.
+- Dream Engine: Generates dream-based simulations with emotional mapping.
+- Voice Interface: ATHENA powers vocal interaction and feedback.
+- Quantum Forecaster: Experimental module for long-term probabilistic forecasting.
+5. Usage Tips
+Start with activating a profile. Use settings panel to fine-tune learning preferences. Explore dream-state
+triggers by enabling nightly cycles. Allow plugin auto-updates for best performance.
+GAIA User Manual
+6. Support and Licensing
+For licensing, refer to GAIA_License_Pricing_Tiers and White_Label_License_Agreement_Template. Contact
+support via your deployment administrator or email from the web portal.
