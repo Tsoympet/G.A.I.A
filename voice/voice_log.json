@@ -1,0 +1,20 @@
+{
+    "boot": {
+        "timestamp": "2025-06-19T22:00:00",
+        "file": "boot_greeting.mp3",
+        "emotion": "neutral",
+        "trigger": "system_start"
+    },
+    "casino_mode": {
+        "timestamp": "2025-06-19T22:03:12",
+        "file": "casino_mode.mp3",
+        "emotion": "excited",
+        "trigger": "user_command"
+    },
+    "forecast_mode": {
+        "timestamp": "2025-06-19T18:15:24.712565",
+        "file": "forecast_mode.mp3",
+        "emotion": "calm",
+        "trigger": "module_trigger"
+    }
+}

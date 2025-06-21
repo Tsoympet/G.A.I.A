@@ -1,0 +1,26 @@
+{
+  "default": {
+    "name": "Athena",
+    "reference_wav": "gaia/assets/voice/gaia_reference.wav",
+    "model": "tts_models/multilingual/multi-dataset/your_tts",
+    "pitch_shift": 0,
+    "speed": 1.0
+  },
+  "moods": {
+    "calm": {
+      "pitch_shift": -100,
+      "speed": 0.95,
+      "reference_wav": "gaia/assets/voice/dream_intro.wav"
+    },
+    "alert": {
+      "pitch_shift": 100,
+      "speed": 1.1,
+      "reference_wav": "gaia/assets/voice/stress_warning.wav"
+    },
+    "playful": {
+      "pitch_shift": 200,
+      "speed": 1.25,
+      "reference_wav": "gaia/assets/voice/casino_mode.wav"
+    }
+  }
+}

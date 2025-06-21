@@ -1,0 +1,14 @@
+
+    "name": "gaia-activation-portal",
+    "version": "1.0.0",
+    "description": "GAIA Activation Portal",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": "GAIA Project",
+    "license": "MIT",
+    "dependencies": {
+        "electron": "^29.1.0"
+    }
+}

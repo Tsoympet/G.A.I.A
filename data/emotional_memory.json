@@ -1,0 +1,44 @@
+{
+  "emotions": [
+    {
+      "timestamp": "2025-06-10T21:45:00",
+      "type": "joyful",
+      "intensity": 0.82,
+      "trigger": "Successful prediction on poker session",
+      "context": "Casino module"
+    },
+    {
+      "timestamp": "2025-06-10T23:18:10",
+      "type": "curious",
+      "intensity": 0.66,
+      "trigger": "User explored quantum forecaster plugin",
+      "context": "Learning Console"
+    },
+    {
+      "timestamp": "2025-06-11T09:10:22",
+      "type": "calm",
+      "intensity": 0.45,
+      "trigger": "Nightly dream generation",
+      "context": "DreamStateEngine"
+    },
+    {
+      "timestamp": "2025-06-11T13:01:44",
+      "type": "frustrated",
+      "intensity": 0.57,
+      "trigger": "Network sync failure",
+      "context": "SyncEngine"
+    },
+    {
+      "timestamp": "2025-06-11T14:37:59",
+      "type": "neutral",
+      "intensity": 0.32,
+      "trigger": "Idle system scan",
+      "context": "SelfRepair"
+    }
+  ],
+  "mood_summary": {
+    "dominant_mood": "curious",
+    "average_intensity": 0.564,
+    "last_update": "2025-06-11T14:38:00"
+  }
+}

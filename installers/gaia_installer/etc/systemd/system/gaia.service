@@ -1,0 +1,11 @@
+[Unit]
+Description=GAIA AI Service
+After=network.target
+
+[Service]
+ExecStart=/usr/local/bin/gaia-launch
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target

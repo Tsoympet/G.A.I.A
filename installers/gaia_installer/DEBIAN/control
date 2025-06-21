@@ -1,0 +1,8 @@
+Package: gaia
+Version: 1.0
+Section: base
+Priority: optional
+Architecture: all
+Depends: python3, python3-pip
+Maintainer: G.A.I.A. Systems <team@gaia.ai>
+Description: G.A.I.A Autonomous AI Suite
