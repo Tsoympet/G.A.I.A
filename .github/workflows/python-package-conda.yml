@@ -1,0 +1,90 @@
+name: gaia-env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Python version
+  - python=3.10
+
+  # GUI and UI
+  - pyqt=5
+  - qt=5
+  - pyqtgraph
+  - matplotlib
+
+  # Core AI / ML / DL
+  - numpy
+  - pandas
+  - scikit-learn
+  - pytorch
+  - torchvision
+  - tensorflow
+  - keras
+  - h5py
+
+  # Reinforcement learning & genetic
+  - gym
+  - deap
+  - optuna
+
+  # NLP & Transformers
+  - nltk
+  - spacy
+  - transformers
+  - sentence-transformers
+
+  # Audio & voice
+  - pyaudio
+  - librosa
+  - soundfile
+  - speechrecognition
+
+  # Blender / 3D APIs
+  - python-blender==2.93.1  # if available; otherwise installed separately
+
+  # CFD/Simulators
+  - openfoam
+  - simpy
+  - scipy
+
+  # CAD & plotting
+  - opencv
+  - svgwrite
+  - shapely
+  - ezdxf
+
+  # Web & Plugin integration
+  - flask
+  - fastapi
+  - requests
+
+  # Utilities
+  - tqdm
+  - psutil
+  - rich
+  - typing-extensions
+
+  # Testing
+  - pytest
+  - coverage
+  - mypy
+  - flake8
+  - pylint
+
+  # Git & packaging
+  - git
+  - pip
+  - setuptools
+
+  # PIP packages that aren't in conda-forge
+  - pip:
+      - PyQt5-sip
+      - unrealcv
+      - pyttsx3
+      - onnx
+      - onnxruntime
+      - gradio
+      - python-dotenv
+      - openai
+      - huggingface_hub
